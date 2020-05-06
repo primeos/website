@@ -2,3 +2,22 @@ baseURL = "https://www.primeos.dev/"
 languageCode = "en-us"
 title = "Michael Weiss (primeos)"
 theme = "hello-friend-ng"
+
+[params]
+  homeSubtitle = "Computer science student and NixOS developer from Germany. Loves FOSS, mainly interested in GNU/Linux and computer networks."
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:dev.primeos@gmail.com"
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/primeos"
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://social.primeos.dev/michael"
+
+[languages]
+  [languages.en]
+    #subtitle  = "Personal homepage"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC-BY-SA-4.0</a>'
