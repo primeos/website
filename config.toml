@@ -1,3 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.primeos.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Michael Weiss (primeos)"
+theme = "hello-friend-ng"
