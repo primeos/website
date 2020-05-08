@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -eu
+
+# Documentation:
+# - Specification: https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/
+# - Hosting: https://wiki.gnupg.org/WKDHosting
+
+rm -r static/.well-known/openpgpkey/
+mkdir -p static/.well-known/openpgpkey/
+gpg --list-options show-only-fpr-mbox -K \
+  | grep "A752BEF1763711A86BC026E509368A41F399F184" \
+  | gpg-wks-server --verbose --install-key --directory static/.well-known/openpgpkey
+mv static/.well-known/openpgpkey/primeos.dev/* static/.well-known/openpgpkey/
+rmdir static/.well-known/openpgpkey/primeos.dev
+
+echo "Result:"
+tree -a static/.well-known/openpgpkey
+
+# To verify:
+# gpg --verbose --auto-key-locate clear,nodefault,wkd --locate-keys michael@primeos.dev
