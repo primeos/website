@@ -20,7 +20,7 @@ theme = "primeos"
   [languages.en]
     #subtitle  = "Personal homepage"
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC-BY-SA-4.0</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>'
 
 [menu]
   [[menu.main]]
