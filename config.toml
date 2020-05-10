@@ -12,9 +12,6 @@ theme = "primeos"
   [[params.social]]
     name = "github"
     url  = "https://github.com/primeos"
-  [[params.social]]
-    name = "mastodon"
-    url  = "https://social.primeos.dev/michael"
 
 [languages]
   [languages.en]
