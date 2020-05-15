@@ -7,10 +7,20 @@ theme = "primeos"
   homeSubtitle = "Computer science student and NixOS developer from Germany. Loves FOSS, mainly interested in GNU/Linux and computer networks."
 
   [[params.social]]
-    name = "email"
-    url  = "mailto:dev.primeos@gmail.com"
+    name = "Email"
+    url  = "mailto:michael@primeos.dev"
   [[params.social]]
-    name = "github"
+    name = "XMPP"
+    url  = "xmpp:primeos@jabber.ccc.de"
+  # TODO (icon missing):
+  #[[params.social]]
+  #  name = "IRC"
+  #  url  = "irc://irc.freenode.net/primeos,isuser"
+  [[params.social]]
+    name = "Matrix"
+    url  = "matrix:user/primeos:matrix.org"
+  [[params.social]]
+    name = "GitHub"
     url  = "https://github.com/primeos"
 
 [languages]
