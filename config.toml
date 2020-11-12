@@ -22,6 +22,9 @@ theme = "primeos"
   [[params.social]]
     name = "GitHub"
     url  = "https://github.com/primeos"
+  [[params.social]]
+    name = "Pleroma"
+    url  = "https://social.primeos.dev/michael"
 
 [languages]
   [languages.en]
