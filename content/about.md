@@ -1,9 +1,13 @@
 +++
 title = "About"
-date = "2020-05-07"
 +++
 
-Hello, World! I'm primeos. To be continued...
+Hello, World! I'm Michael Weiss, aka primeos, a computer science student and
+NixOS developer from Germany. I love FLOSS (Free/Libre and Open Source Software)
+and I'm mainly interested in GNU/Linux (from a sysadmin's perspective) as well
+as computer networks. For fun, I really like, amongst other things, watching
+movies and TV shows (probably also because I'm interested in computer graphics
+and of course fascinated by its magic :D).
 
 Contact/accounts:
   - Email: michael@primeos.dev

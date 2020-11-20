@@ -4,7 +4,7 @@ title = "Michael Weiss (primeos)"
 theme = "primeos"
 
 [params]
-  homeSubtitle = "Computer science student and NixOS developer from Germany. Loves FOSS, mainly interested in GNU/Linux and computer networks."
+  homeSubtitle = "Computer science student and NixOS developer from Germany. Loves FLOSS, mainly interested in GNU/Linux and computer networks."
 
   [[params.social]]
     name = "Email"
