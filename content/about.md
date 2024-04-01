@@ -12,8 +12,8 @@ and of course fascinated by its magic :D).
 Contact/accounts:
   - Email: michael@primeos.dev
   - Instant messaging
-    - IRC: primeos (Libera.Chat, OFTC, and hackint)
     - Matrix: @primeos:matrix.org
+    - IRC: primeos (Libera.Chat, OFTC, and hackint)
     - XMPP: `primeos@jabber.ccc.de` or `primeos@xmpp-trial1.ietf.org`
   - Social media
     - Fediverse: https://social.primeos.dev/michael
