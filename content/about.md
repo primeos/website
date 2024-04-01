@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-Hello, World! I'm Michael Weiss, aka primeos, a computer science student and
+Hello, World! I'm Michael Weiss, aka primeos, a software engineer and
 NixOS developer from Germany. I love FLOSS (Free/Libre and Open Source Software)
 and I'm mainly interested in GNU/Linux (from a sysadmin's perspective) as well
 as computer networks. For fun, I really like, amongst other things, watching
